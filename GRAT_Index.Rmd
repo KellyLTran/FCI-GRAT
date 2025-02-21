@@ -74,16 +74,16 @@ census_data_2023 <- census_data_2023|>
 ```{r}
 census_data_2020 <- census_data_2020 %>%
   rename(
-    Total_Housing_Units = B25001_001,
-    Vacancy_Rate = B25004_001, 
     Median_Contract_Rent = B25058_001,
     Median_Home_Value = B25077_001,
     Total_Renter_Occupied_Units = B25003_003,
+    Vacancy_Rate = B25004_001,
     Total_Owner_Occupied_Units = B25003_002,
     White_Alone = B03002_003,
     Black_Alone = B03002_004,
     Total_Population = B03002_001,
     Median_Household_Income = B19013_001,
+    Total_Housing_Units = B25001_001,
     Below_Poverty_Level = B17001_002,
     Total_Poverty_Population = B17001_001,
     Renter_Paying_30_34 = B25070_007,
@@ -105,15 +105,16 @@ census_data_2020 <- census_data_2020 %>%
 census_data_2022 <- census_data_2022 %>%
   rename(
     Total_Housing_Units = B25001_001,
-    Vacancy_Rate = B25004_001,
     Median_Contract_Rent = B25058_001,
     Median_Home_Value = B25077_001,
     Total_Renter_Occupied_Units = B25003_003,
+    Vacancy_Rate = B25004_001,
     Total_Owner_Occupied_Units = B25003_002,
     White_Alone = B03002_003,
     Black_Alone = B03002_004,
     Total_Population = B03002_001,
     Median_Household_Income = B19013_001,
+    Total_Housing_Units = B25001_001,
     Below_Poverty_Level = B17001_002,
     Total_Poverty_Population = B17001_001,
     Renter_Paying_30_34 = B25070_007,
@@ -134,16 +135,16 @@ census_data_2022 <- census_data_2022 %>%
 
 census_data_2023 <- census_data_2023 %>%
   rename(
-    Total_Housing_Units = B25001_001,
-    Vacancy_Rate = B25004_001, 
     Median_Contract_Rent = B25058_001,
     Median_Home_Value = B25077_001,
     Total_Renter_Occupied_Units = B25003_003,
+    Vacancy_Rate = B25004_001,
     Total_Owner_Occupied_Units = B25003_002,
     White_Alone = B03002_003,
     Black_Alone = B03002_004,
     Total_Population = B03002_001,
     Median_Household_Income = B19013_001,
+    Total_Housing_Units = B25001_001,
     Below_Poverty_Level = B17001_002,
     Total_Poverty_Population = B17001_001,
     Renter_Paying_30_34 = B25070_007,
